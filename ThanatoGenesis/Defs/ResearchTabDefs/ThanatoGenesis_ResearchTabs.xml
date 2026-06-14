@@ -1,0 +1,9 @@
+<Defs>
+
+  <ResearchTabDef>
+    <defName>ThanatoGenesisTab</defName>
+    <label>Thanato-Genesis</label>
+    <description>Biotechnological resurrection research line.</description>
+  </ResearchTabDef>
+
+</Defs>

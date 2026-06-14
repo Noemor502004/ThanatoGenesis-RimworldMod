@@ -1,0 +1,70 @@
+<Defs>
+<RecipeDef>
+    <defName>ThanatoGenesis_MakeHealerMechSerum</defName>
+
+    <label>craft healer mech serum</label>
+
+    <description>Synthesizes a healer mech serum using a small amount of luciferium as a catalyst alongside advanced glitterworld biotechnology.</description>
+    <jobString>Synthesizing a healer mech serum.</jobString>
+
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+
+    <workAmount>12000</workAmount>
+
+    <workSkill>Intellectual</workSkill>
+
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+
+    <skillRequirements>
+            <Intellectual>10</Intellectual>
+    </skillRequirements>
+
+    <recipeUsers>
+        <li>DrugLab</li>
+    </recipeUsers>
+
+    <ingredients>
+
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>MedicineUltratech</li>
+                </thingDefs>
+            </filter>
+            <count>3</count>
+        </li>
+
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Luciferium</li>
+                </thingDefs>
+            </filter>
+        <count>1</count>
+        </li>
+
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Plasteel</li>
+                </thingDefs>
+            </filter>
+            <count>150</count>
+        </li>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>ComponentSpacer</li>
+                </thingDefs>
+            </filter>
+            <count>5</count>
+        </li>
+    </ingredients>
+
+    <products>
+        <MechSerumHealer>1</MechSerumHealer>
+    </products>
+    <researchPrerequisite>ThanatoGenesis_MechSerumResearch</researchPrerequisite>
+</RecipeDef>
+</Defs>

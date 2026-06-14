@@ -1,0 +1,17 @@
+<Defs>
+<ResearchProjectDef>
+    <defName>ThanatoGenesis_MechSerumResearch</defName>
+    <label>mech serum</label>
+    <description>Research into the replication of the resurrector mech serum and healer mech serum.</description>
+
+    <baseCost>5000</baseCost>
+    <tab>ThanatoGenesisTab</tab>
+    <techLevel>Ultra</techLevel>
+    <researchViewX>3</researchViewX>
+    <researchViewY>2</researchViewY>
+    <prerequisites>
+        <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+</ResearchProjectDef>
+</Defs>

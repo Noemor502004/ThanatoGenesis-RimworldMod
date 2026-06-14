@@ -1,0 +1,70 @@
+<Defs>
+<RecipeDef>
+    <defName>ThanatoGenesis_MakeResurrectorMechSerum</defName>
+
+    <label>craft resurrector mech serum</label>
+
+    <description>Synthesizes a resurrector mech serum by combining luciferium with advanced glitterworld biotechnology to recreate its extraordinary regenerative properties.</description>
+    <jobString>Synthesizing a resurrector mech serum.</jobString>
+
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+
+    <workAmount>15000</workAmount>
+
+    <workSkill>Intellectual</workSkill>
+
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+
+    <skillRequirements>
+            <Intellectual>12</Intellectual>
+    </skillRequirements>
+
+    <recipeUsers>
+        <li>DrugLab</li>
+    </recipeUsers>
+
+    <ingredients>
+
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>MedicineUltratech</li>
+                </thingDefs>
+            </filter>
+            <count>10</count>
+        </li>
+
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Luciferium</li>
+                </thingDefs>
+            </filter>
+        <count>6</count>
+        </li>
+
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Plasteel</li>
+                </thingDefs>
+            </filter>
+            <count>200</count>
+        </li>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>ComponentSpacer</li>
+                </thingDefs>
+            </filter>
+            <count>10</count>
+        </li>
+    </ingredients>
+
+    <products>
+        <MechSerumResurrector>1</MechSerumResurrector>
+    </products>
+    <researchPrerequisite>ThanatoGenesis_MechSerumResearch</researchPrerequisite>
+</RecipeDef>
+</Defs>

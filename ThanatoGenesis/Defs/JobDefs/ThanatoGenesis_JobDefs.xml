@@ -1,0 +1,11 @@
+<Defs>
+<JobDef>
+  <defName>ThanatoGenesis_Resurrect</defName>
+
+  <driverClass>ThanatoGenesis.JobDriver_ThanatoGenesisResurrect</driverClass>
+
+  <reportString>using thanatogenesis serum on {0}.</reportString>
+
+  <playerInterruptible>true</playerInterruptible>
+</JobDef>
+</Defs>

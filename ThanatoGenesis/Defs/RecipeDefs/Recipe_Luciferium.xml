@@ -1,0 +1,59 @@
+<Defs>
+<RecipeDef>
+    <defName>ThanatoGenesis_MakeLuciferium</defName>
+
+    <label>craft luciferium</label>
+
+    <description>Synthesizes luciferium by combining various advanced materials in a specialized synthesis process.</description>
+    <jobString>Synthesizing luciferium.</jobString>
+
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+
+    <workAmount>5000</workAmount>
+
+    <workSkill>Intellectual</workSkill>
+
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+
+    <skillRequirements>
+            <Intellectual>9</Intellectual>
+    </skillRequirements>
+
+    <recipeUsers>
+        <li>DrugLab</li>
+    </recipeUsers>
+
+    <ingredients>
+    <li>
+            <filter>
+                <thingDefs>
+                    <li>MedicineUltratech</li>
+                </thingDefs>
+            </filter>
+            <count>2</count>
+        </li>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Plasteel</li>
+                </thingDefs>
+            </filter>
+            <count>100</count>
+        </li>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>ComponentSpacer</li>
+                </thingDefs>
+            </filter>
+            <count>3</count>
+        </li>
+    </ingredients>
+
+    <products>
+        <Luciferium>1</Luciferium>
+    </products>
+    <researchPrerequisite>ThanatoGenesis_LuciferiumResearch</researchPrerequisite>
+</RecipeDef>
+</Defs>

@@ -1,0 +1,17 @@
+<Defs>
+<ResearchProjectDef>
+    <defName>ThanatoGenesis_LuciferiumResearch</defName>
+    <label>luciferium synthesis</label>
+    <description>Research into artificial luciferium production.</description>
+
+    <baseCost>4000</baseCost>
+    <tab>ThanatoGenesisTab</tab>
+    <techLevel>Ultra</techLevel>
+    <researchViewX>2</researchViewX>
+    <researchViewY>2</researchViewY>
+    <prerequisites>
+        <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+</ResearchProjectDef>
+</Defs>

@@ -1,0 +1,71 @@
+<Defs>
+<RecipeDef>
+    <defName>ThanatoGenesis_MakeThanatoGenesisSerum</defName>
+
+    <label>craft thanato-genesis serum</label>
+
+    <description>Synthesizes a Thanato-Genesis Serum by combining glitterworld medicine, advanced industrial materials and a massive reserve of biological nutrients into a regenerative biotechnology compound.</description>
+    <jobString>Synthesizing a thanato-genesis serum.</jobString>
+
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+
+    <workAmount>20000</workAmount>
+
+    <workSkill>Intellectual</workSkill>
+
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+
+    <skillRequirements>
+            <Intellectual>12</Intellectual>
+    </skillRequirements>
+
+    <recipeUsers>
+        <li>DrugLab</li>
+    </recipeUsers>
+
+    <ingredients>
+
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>MedicineUltratech</li>
+                </thingDefs>
+            </filter>
+            <count>15</count>
+        </li>
+
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Plasteel</li>
+                </thingDefs>
+            </filter>
+            <count>200</count>
+        </li>
+
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>ComponentSpacer</li>
+                </thingDefs>
+            </filter>
+            <count>25</count>
+        </li>
+
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>MealLavish</li>
+                </thingDefs>
+            </filter>
+            <count>30</count>
+        </li>
+    </ingredients>
+
+    <products>
+        <ThanatoGenesisSerum>1</ThanatoGenesisSerum>
+    </products>
+<researchPrerequisite>ThanatoGenesis_ThanatoGenesisResearch</researchPrerequisite>
+</RecipeDef>
+</Defs>

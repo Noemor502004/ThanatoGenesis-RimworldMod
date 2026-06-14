@@ -1,0 +1,17 @@
+<Defs>
+<ResearchProjectDef>
+    <defName>ThanatoGenesis_ThanatoGenesisResearch</defName>
+    <label>Thanato-Genesis synthesis</label>
+    <description>Research into Thanato-Genesis serum production.</description>
+
+    <baseCost>5000</baseCost>
+    <tab>ThanatoGenesisTab</tab>
+    <techLevel>Ultra</techLevel>
+    <researchViewX>4</researchViewX>
+    <researchViewY>2</researchViewY>
+    <prerequisites>
+        <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+</ResearchProjectDef>
+</Defs>

@@ -1,0 +1,42 @@
+<Defs>
+<ThingDef ParentName="MechSerumBase">
+    <defName>ThanatoGenesisSerum</defName>
+    <label>Thanato-Genesis serum</label>
+    <description>An experimental biotechnological serum designed to emulate mechanoid resurrection protocols without mechanites.
+        It forces an extreme regenerative cascade that reboots cardiac and neural activity while reconstructing damaged tissues through accelerated biological consumption.
+        The process is unstable and imprecise, often restoring life with severe neurological and organ trauma. In many cases, the subject survives in a permanently impaired state.
+        Repeated administration may be required for heavily degraded remains. Failure is common.</description>
+    <graphicData>
+      <texPath>Things/Item/ThanatoGenesisSerum</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>10</stackLimit>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>Drugs</li>
+    </thingCategories>
+    <tradeability>Sellable</tradeability>
+    <thingSetMakerTags>
+      <li>RewardStandardMidFreq</li>
+    </thingSetMakerTags>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use {0_label}</useLabel>
+        <useDuration>0</useDuration>
+        <warmupMote>Mote_ResurrectAbility</warmupMote>
+        <showUseGizmo>true</showUseGizmo>
+      </li>
+      <li Class="CompProperties_Targetable">
+        <compClass>CompTargetable_SingleCorpse</compClass>
+        <fleshCorpsesOnly>true</fleshCorpsesOnly>
+        <nonDessicatedCorpsesOnly>true</nonDessicatedCorpsesOnly>
+      </li>
+    <li Class="CompProperties_TargetEffectResurrect">
+      <compClass>ThanatoGenesis.CompTargetEffect_ThanatoGenesisResurrect</compClass>
+    </li>
+    </comps>
+  </ThingDef>
+  </Defs>
